@@ -2,6 +2,8 @@
 
 A new website every day to keep my skills sharp, test new concepts, and learn new things.
 
+icons8 - Vector Icons
+
 **_A website a day keeps the errors away._**
 
 # Day 1 - October 25, 2018

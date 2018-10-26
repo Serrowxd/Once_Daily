@@ -198,13 +198,66 @@ div {
   min-height: 20rem;
 
   p {
-    transition: 0.5s;
     font-size: 2rem;
+  }
 
-    &:hover {
-      color: black;
-      background-color: @bluetext;
-      cursor: pointer;
+  .homelink {
+    position: relative;
+
+    &::before {
+      content: 'H';
+    }
+
+    &:hover::after {
+      content: 'ome';
+    }
+  }
+
+  .aboutlink {
+    position: relative;
+
+    &::before {
+      content: 'A';
+    }
+
+    &:hover::after {
+      content: 'bout';
+    }
+  }
+
+  .vidlink {
+    position: relative;
+
+    &::before {
+      content: 'V';
+    }
+
+    &:hover::after {
+      content: 'ideos';
+    }
+  }
+
+  .atlink {
+    position: relative;
+
+    &::before {
+      content: '@';
+    }
+
+    &:hover::after {
+      content: '@@';
+    }
+  }
+
+  .soclink {
+    position: relative;
+
+    &::before {
+      content: 'S';
+    }
+
+    &:hover::after {
+      content: 'ocial';
     }
   }
 }

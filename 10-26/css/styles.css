@@ -175,13 +175,52 @@ div {
   min-height: 20rem;
 }
 .midnav p {
-  transition: 0.5s;
   font-size: 2rem;
 }
-.midnav p:hover {
-  color: black;
-  background-color: #00d7e6;
-  cursor: pointer;
+.midnav .homelink {
+  position: relative;
+}
+.midnav .homelink::before {
+  content: 'H';
+}
+.midnav .homelink:hover::after {
+  content: 'ome';
+}
+.midnav .aboutlink {
+  position: relative;
+}
+.midnav .aboutlink::before {
+  content: 'A';
+}
+.midnav .aboutlink:hover::after {
+  content: 'bout';
+}
+.midnav .vidlink {
+  position: relative;
+}
+.midnav .vidlink::before {
+  content: 'V';
+}
+.midnav .vidlink:hover::after {
+  content: 'ideos';
+}
+.midnav .atlink {
+  position: relative;
+}
+.midnav .atlink::before {
+  content: '@';
+}
+.midnav .atlink:hover::after {
+  content: '@@';
+}
+.midnav .soclink {
+  position: relative;
+}
+.midnav .soclink::before {
+  content: 'S';
+}
+.midnav .soclink:hover::after {
+  content: 'ocial';
 }
 .lowernav {
   font-size: 1.5rem;
