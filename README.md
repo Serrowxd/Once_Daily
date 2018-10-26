@@ -18,4 +18,6 @@ Day 1 of "Once Daily" - I found a website that I wanted to revamp, so I gave it 
 
 Day 2 I created a portfolio Website for a good friend who just so happens to be a very talented video editor!
 
+**Used:** HTML, LESS
+
 **[Deployment](https://ecstatic-bhabha-30485b.netlify.com/)**
