@@ -1,2 +1,5 @@
 # MHSHardwood
-Revamping Websites to work on my basic HTML/CSS capabilities.
+
+**Day 1**
+
+**Used:** HTML, LESS, JQuery
