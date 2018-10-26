@@ -129,7 +129,7 @@ table {
 html,
 body {
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kalam', cursive;
   background-color: #2e2e2e;
 }
 div {
@@ -224,6 +224,9 @@ div {
 .bottomhead h2 {
   margin-top: 2rem;
   font-size: 3rem;
+}
+.bottomhead span {
+  color: #00d7e6;
 }
 .mainimg {
   display: flex;
