@@ -7,6 +7,18 @@ div {
 .col {
   flex-direction: column;
 }
+.row {
+  flex-direction: row;
+  width: 100%;
+}
+.sec1,
+.sec2 {
+  width: 50%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #header {
   display: flex;
   height: 100vh;
@@ -17,29 +29,22 @@ div {
   background-size: 100%;
   max-width: 1920px;
 }
-.sec1,
-.sec2 {
-  width: 50%;
-  min-height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sec1 img {
+#header .sec1 img {
   width: 30rem;
   height: auto;
 }
-.sec2 {
+#header .sec2 {
   color: white;
 }
-.sec2 h1 {
+#header .sec2 h1 {
   font-size: 12rem;
 }
-.sec2 h2 {
+#header .sec2 h2 {
   font-size: 2.5rem;
 }
 #one {
   display: flex;
+  flex-direction: column;
   height: auto;
   background-image: url(../assets/yasback2.jpg);
   background-attachment: fixed;
@@ -54,6 +59,30 @@ div {
 }
 .idone h1 {
   font-size: 10rem;
+}
+.rowone {
+  color: white;
+  margin-bottom: 2rem;
+}
+#two {
+  display: flex;
+  height: auto;
+  background-image: url(../assets/Yasuo_0.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  display: none;
+}
+#two .sec2 {
+  color: white;
+  font-size: 8rem;
+}
+.idtwo {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.idtwo a {
+  margin-top: 2rem;
 }
 .animone {
   animation: showme 2s forwards;

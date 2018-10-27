@@ -14,6 +14,20 @@ div {
   flex-direction: column;
 }
 
+.row {
+  flex-direction: row;
+  width: 100%;
+}
+
+.sec1,
+.sec2 {
+  width: 50%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 // ***
 // Colors
 // ***
@@ -35,36 +49,30 @@ div {
   background-position: center;
   background-size: 100%;
   max-width: 1920px;
-}
 
-.sec1,
-.sec2 {
-  width: 50%;
-  min-height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sec1 img {
-  width: 30rem;
-  height: auto;
-}
-
-.sec2 {
-  color: @textwhite;
-  h1 {
-    font-size: 12rem;
+  .sec1 img {
+    width: 30rem;
+    height: auto;
   }
-  h2 {
-    font-size: 2.5rem;
+
+  .sec2 {
+    color: @textwhite;
+    h1 {
+      font-size: 12rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
   }
 }
 
+// ***
 // Section One
+// ***
 
 #one {
   display: flex;
+  flex-direction: column;
   height: auto;
   background-image: url(../assets/yasback2.jpg);
   background-attachment: fixed;
@@ -83,13 +91,47 @@ div {
   }
 }
 
-.animone {
-  animation: showme 2s forwards;
+.rowone {
+  color: @textwhite;
+  margin-bottom: 2rem;
+}
+
+// ***
+// Section Two
+// ***
+
+#two {
+  display: flex;
+  height: auto;
+  background-image: url(../assets/Yasuo_0.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+
+  display: none;
+
+  .sec2 {
+    color: @textwhite;
+    font-size: 8rem;
+  }
+}
+
+.idtwo {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  a {
+    margin-top: 2rem;
+  }
 }
 
 // ***
 // Animations
 // ***
+
+.animone {
+  animation: showme 2s forwards;
+}
 
 @keyframes showme {
   0% {
