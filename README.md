@@ -24,4 +24,8 @@ Day 2 I created a portfolio Website for a good friend who just so happens to be 
 
 # Day 3 - October 27, 2018
 
-Today I created a simple website for a friend - my attempt was to utilize window scroll binds to run animations for me at different scrollY positions. Still a work in progress!
+Today I created a simple website for a friend - my attempt was to utilize window scroll binds to run animations for me at different scrollY positions. This project features a fully-implemented pull from the Twitch.tv API, where it dynamically parses the top 4 clips of Shen's stream to the page. All done in vanilla JavaScript and HTML!
+
+It also includes the wonderful Particle.js, as well as a live embeded video feed directly from his stream whenever he goes live.
+
+**Used** HTML, LESS, JQuery
