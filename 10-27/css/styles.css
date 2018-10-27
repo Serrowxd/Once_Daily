@@ -4,10 +4,13 @@ html {
 div {
   display: flex;
 }
-.header {
+.col {
+  flex-direction: column;
+}
+#header {
   display: flex;
   height: 100vh;
-  background-image: url(../assets/Yasuo_0.jpg);
+  background-image: url(../assets/yasback.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -34,4 +37,32 @@ div {
 }
 .sec2 h2 {
   font-size: 2.5rem;
+}
+#one {
+  display: flex;
+  height: auto;
+  background-image: url(../assets/yasback2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+.idone {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: white;
+  opacity: 0;
+}
+.idone h1 {
+  font-size: 10rem;
+}
+.animone {
+  animation: showme 2s forwards;
+}
+@keyframes showme {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

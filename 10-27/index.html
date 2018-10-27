@@ -23,23 +23,58 @@
 <body>
 
   <!-- Header -->
-  <section class="header">
+  <section id="header">
     <div class="sec1">
-      <img src="./assets/s9LdoXiD_400x400.png" alt="Shen">
+      <!-- Leaving this out for now, looks better without it -->
+      <!-- <img src="./assets/s9LdoXiD_400x400.png" alt="Shen"> -->
+      <!-- <div id="twitch-embed"></div> -->
     </div>
 
     <div class="sec2">
       <h1>xShenxaio</h1>
       <h2>Yasuo Main || Streamer || Furry</h2>
-      <!-- Animation for these -->
     </div>
   </section>
 
 
+  <!-- Section 1 -->
+  <section id="one">
+    <div class="sec1 idone">
+      <!-- <img src="./assets/s9LdoXiD_400x400.png" alt="Shen"> -->
+      <h1>Stream</h1>
+      <p>(placeholder text)</p>
+    </div>
+
+    <div class="sec2 idone">
+      <div id="twitch-embed"></div>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+
+  <section id="two">
+    <div class="sec1 idtwo">
+      <h1>Henlo (OvO")</h1>
+    </div>
+
+    <div class="sec2 idtwo">
+      <h1>Henlo (OvO")</h1>
+    </div>
+  </section>
+
   <!-- JQuery Script -->
   <script src="./js/main.js"></script>
+
+  <!-- Embeded Twitch -->
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+  <script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+      width: 854,
+      height: 480,
+      channel: "xShenxaio",
+      layout: "video"
+    });
+  </script>
 </body>
 
 </html>
-
-<!-- Parallaxed background image for main screen -->
