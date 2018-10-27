@@ -28,13 +28,20 @@ div {
   align-items: center;
 }
 
+#particles-js {
+  background-color: @black !important;
+  position: absolute;
+  width: 100%;
+  height: 43rem;
+}
+
 // ***
 // Colors
 // ***
 
 @textwhite: white;
 @textblack: black;
-@black: rgb(33, 33, 33);
+@black: rgb(47, 47, 47);
 
 // ***
 // Header
@@ -73,11 +80,12 @@ div {
 #one {
   display: flex;
   flex-direction: column;
-  height: auto;
-  background-image: url(../assets/yasback2.jpg);
+  // background-image: url(../assets/yasback2.jpg);
+  background-color: @black;
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
+  height: 43rem;
 }
 
 .idone {
@@ -102,13 +110,10 @@ div {
 
 #two {
   display: flex;
-  height: auto;
-  background-image: url(../assets/Yasuo_0.jpg);
+  background-image: url(../assets/yasback2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
-
-  display: none;
 
   .sec2 {
     color: @textwhite;
@@ -119,9 +124,17 @@ div {
 .idtwo {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 100% !important;
 
-  a {
-    margin-top: 2rem;
+  h1 {
+    font-size: 8rem;
+    color: @textblack;
+  }
+
+  .highlightreel {
+    margin-top: 5rem;
+    justify-content: space-around;
+    width: 100%;
   }
 }
 
