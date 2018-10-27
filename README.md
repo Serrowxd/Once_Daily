@@ -21,3 +21,7 @@ Day 2 I created a portfolio Website for a good friend who just so happens to be 
 **Used:** HTML, LESS
 
 **[Deployment](https://ecstatic-bhabha-30485b.netlify.com/)**
+
+# Day 3 - October 27, 2018
+
+Today I created a simple website for a friend - my attempt was to utilize window scroll binds to run animations for me at different scrollY positions. Still a work in progress!
