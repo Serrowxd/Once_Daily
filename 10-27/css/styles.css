@@ -88,12 +88,18 @@ div {
 }
 .idtwo h1 {
   font-size: 8rem;
-  color: black;
+  color: white;
 }
-.idtwo .highlightreel {
-  margin-top: 5rem;
-  justify-content: space-around;
-  width: 100%;
+.idtwo #clips-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.idtwo .replay_frame {
+  margin: 2rem;
 }
 .animone {
   animation: showme 2s forwards;
