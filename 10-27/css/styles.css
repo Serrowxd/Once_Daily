@@ -1,0 +1,37 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  display: flex;
+}
+.header {
+  display: flex;
+  height: 100vh;
+  background-image: url(../assets/Yasuo_0.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  max-width: 1920px;
+}
+.sec1,
+.sec2 {
+  width: 50%;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 img {
+  width: 30rem;
+  height: auto;
+}
+.sec2 {
+  color: white;
+}
+.sec2 h1 {
+  font-size: 12rem;
+}
+.sec2 h2 {
+  font-size: 2.5rem;
+}
