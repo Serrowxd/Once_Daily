@@ -17,6 +17,7 @@ div {
 @black: rgb(47, 47, 47);
 @textblack: black;
 @textwhite: white;
+@textblue: rgb(24, 215, 221);
 
 // ***
 // Navigation
@@ -59,7 +60,7 @@ div {
 
 .header {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   color: @textwhite;
 
   background-image: url(../assets/yeet30.png);
@@ -128,5 +129,41 @@ div {
     width: 30rem;
     height: auto;
     padding-bottom: 1rem;
+  }
+
+  button {
+    width: 15rem;
+    height: 3rem;
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+}
+
+// ***
+// Footer
+// ***
+
+.footer {
+  justify-content: space-around;
+  height: 15rem;
+  background-color: @black;
+  color: @textwhite;
+}
+
+.foot_left,
+.foot_right {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  span {
+    color: @textblue;
   }
 }
