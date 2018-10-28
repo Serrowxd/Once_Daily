@@ -4,6 +4,8 @@ A new website every day to keep my skills sharp, test new concepts, and learn ne
 
 icons8 - Vector Icons
 
+#### All Deployments are in 1920x1080 and non-reactive
+
 **_A website a day keeps the errors away._**
 
 # Day 1 - October 25, 2018
@@ -29,3 +31,5 @@ Today I created a simple website for a friend - my attempt was to utilize window
 It also includes the wonderful Particle.js, as well as a live embeded video feed directly from his stream whenever he goes live.
 
 **Used** HTML, LESS, JQuery
+
+**[Deployment](https://upbeat-hawking-b6bbf8.netlify.com/)**
