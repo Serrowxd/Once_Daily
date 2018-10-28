@@ -10,6 +10,10 @@ div {
   display: flex;
 }
 
+span {
+  color: @textblue;
+}
+
 // ***
 // Colors & Mixins
 // ***
@@ -29,6 +33,14 @@ div {
   align-items: center;
   background-color: @black;
   color: @textwhite;
+
+  h1 {
+    transition: 0.5s;
+    &:hover {
+      color: @textblue;
+      cursor: pointer;
+    }
+  }
 
   // Padding
   .nav_head {
@@ -161,9 +173,5 @@ div {
   }
   p {
     font-size: 2rem;
-  }
-
-  span {
-    color: @textblue;
   }
 }

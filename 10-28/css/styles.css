@@ -4,12 +4,22 @@ html {
 div {
   display: flex;
 }
+span {
+  color: #18d7dd;
+}
 .navigation {
   justify-content: space-between;
   height: 3rem;
   align-items: center;
   background-color: #2f2f2f;
   color: white;
+}
+.navigation h1 {
+  transition: 0.5s;
+}
+.navigation h1:hover {
+  color: #18d7dd;
+  cursor: pointer;
 }
 .navigation .nav_head {
   padding-left: 1rem;
@@ -109,8 +119,4 @@ div {
 .foot_left p,
 .foot_right p {
   font-size: 2rem;
-}
-.foot_left span,
-.foot_right span {
-  color: #18d7dd;
 }
