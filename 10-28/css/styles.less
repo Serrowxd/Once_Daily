@@ -1,0 +1,132 @@
+// ***
+// Global
+// ***
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+// ***
+// Colors & Mixins
+// ***
+
+@black: rgb(47, 47, 47);
+@textblack: black;
+@textwhite: white;
+
+// ***
+// Navigation
+// ***
+
+.navigation {
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  background-color: @black;
+  color: @textwhite;
+
+  // Padding
+  .nav_head {
+    padding-left: 1rem;
+  }
+
+  .user {
+    padding-right: 1rem;
+  }
+}
+
+.user,
+.nav_head {
+  width: 10%;
+  justify-content: space-around;
+}
+
+.nav_title {
+  font-size: 2rem;
+}
+
+// ***
+// Header
+// ***
+
+#one {
+  background-color: @black;
+}
+
+.header {
+  width: 100%;
+  height: 70vh;
+  color: @textwhite;
+
+  background-image: url(../assets/yeet30.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-size: 10rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .text_field {
+      width: 30rem;
+      height: 3rem;
+      font-size: 2rem;
+      // text-align: center;
+    }
+    .button {
+      width: 15rem;
+      height: 3rem;
+      align-self: center;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// ***
+// We Are LFG
+// ***
+
+#two {
+  // background-color: @black;
+  background-image: linear-gradient(to left, rgb(47, 47, 47), black);
+}
+
+.we_cont {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.we_are {
+  flex-direction: column;
+  padding: 3rem 0;
+  font-size: 3rem;
+  color: @textwhite;
+  align-items: center;
+
+  h1 {
+    padding: 3rem 0;
+  }
+
+  img {
+    width: 30rem;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+}
