@@ -30,7 +30,7 @@ Today I created a simple website for a friend - my attempt was to utilize window
 
 It also includes the wonderful Particle.js, as well as a live embeded video feed directly from his stream whenever he goes live.
 
-**Used** HTML, LESS, JQuery
+**Used:** HTML, LESS, JQuery
 
 **[Deployment](https://upbeat-hawking-b6bbf8.netlify.com/)**
 
@@ -40,6 +40,6 @@ This project was actually the brain child of a good friend when we were going to
 
 I attempted implementation of the Blizzard API on this project - however with their secruity features I was unable to crack into it with my allotted time for this sprint. I was able to grab the information I needed via Postman requests, but full implementation of the functionality will likely be done via React in the future.
 
-**Used** HTML, LESS, JQuery
+**Used:** HTML, LESS, JQuery
 
 **[Deployment](https://cocky-almeida-48e403.netlify.com/)**
