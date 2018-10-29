@@ -45,3 +45,11 @@ I attempted implementation of the Blizzard API on this project - however with th
 **Used:** HTML, LESS, JQuery
 
 **[Deployment](https://cocky-almeida-48e403.netlify.com/)**
+
+# Day 5 - October 29, 2018:
+
+Today's project is essentially a holster that displays my projects from the "Once Daily" github repository. The main feature of this project (not yet implemnented) is a light-dark theme transition!
+
+**Used:** HTML, LESS, JQuery
+
+**[Deployment](https://codesignal.com/)**
