@@ -52,4 +52,4 @@ Today's project is essentially a holster that displays my projects from the "Onc
 
 **Used:** HTML, LESS, JQuery
 
-**[Deployment](https://codesignal.com/)**
+**[Deployment](https://ecstatic-goodall-f7d3f8.netlify.com/)**
