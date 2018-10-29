@@ -9,22 +9,22 @@ $('.1025_click').on('click', () => {
 
 $('.1026_click').on('click', () => {
   hideAll();
-  $('#ten25').show();
+  $('#ten26').show();
 });
 
 $('.1027_click').on('click', () => {
   hideAll();
-  $('#ten25').show();
+  $('#ten27').show();
 });
 
 $('.1028_click').on('click', () => {
   hideAll();
-  $('#ten25').show();
+  $('#ten28').show();
 });
 
 $('.1029_click').on('click', () => {
   hideAll();
-  $('#ten25').show();
+  $('#ten29').show();
 });
 
 $('button').on('click', () => {

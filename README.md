@@ -18,7 +18,9 @@ Day 1 of "Once Daily" - I found a website that I wanted to revamp, so I gave it 
 
 # Day 2 - October 26, 2018
 
-Day 2 I created a portfolio Website for a good friend who just so happens to be a very talented video editor!
+Day 2 I created a portfolio Website for a good friend who just so happens to be a very talented video editor! This project was mainly just an attempt at embedding YouTube, which turned out to be pretty
+simple, so I ended up just toying with some hover animations in the navigation - they turned out
+fantastic.
 
 **Used:** HTML, LESS
 
