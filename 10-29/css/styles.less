@@ -32,8 +32,10 @@ span {
 // ***
 
 .navigation {
+  flex-direction: row;
   height: 3rem;
   align-items: center;
+
   justify-content: space-between;
   background-color: @white300;
   padding-left: 1rem;
@@ -115,6 +117,10 @@ span {
     width: 17rem;
     height: auto;
     padding: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .col {
@@ -122,7 +128,7 @@ span {
     align-items: center;
 
     h1 {
-      font-size: 2rem;
+      font-size: 2rem !important;
     }
   }
 }
@@ -136,14 +142,20 @@ span {
   justify-content: space-around;
   height: 60%;
   width: 80%;
+
+  button {
+    width: 10rem;
+    height: 2rem;
+    align-self: center;
+  }
 }
 
 .proj_container {
-  height: 60vh;
+  height: 55vh;
   align-items: center;
   justify-content: space-around;
   img {
-    width: 40rem;
+    width: 35rem;
     height: auto;
   }
 }

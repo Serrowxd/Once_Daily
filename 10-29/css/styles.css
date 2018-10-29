@@ -9,6 +9,7 @@ span {
   color: #18d7dd;
 }
 .navigation {
+  flex-direction: row;
   height: 3rem;
   align-items: center;
   justify-content: space-between;
@@ -68,12 +69,15 @@ span {
   height: auto;
   padding: 1rem;
 }
+.img_container img:hover {
+  cursor: pointer;
+}
 .img_container .col {
   flex-direction: column;
   align-items: center;
 }
 .img_container .col h1 {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 .proj_col {
   flex-direction: column;
@@ -81,13 +85,18 @@ span {
   height: 60%;
   width: 80%;
 }
+.proj_col button {
+  width: 10rem;
+  height: 2rem;
+  align-self: center;
+}
 .proj_container {
-  height: 60vh;
+  height: 55vh;
   align-items: center;
   justify-content: space-around;
 }
 .proj_container img {
-  width: 40rem;
+  width: 35rem;
   height: auto;
 }
 .proj_title {
