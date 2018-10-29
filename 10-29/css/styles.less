@@ -82,3 +82,116 @@ span {
     }
   }
 }
+
+// ***
+// Main
+// ***
+
+.main {
+  justify-content: center;
+
+  section {
+    padding: 2rem;
+    width: 100%;
+  }
+  #one {
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+// ***
+// One
+// ***
+
+.img_container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  img {
+    width: 17rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .col {
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+// ***
+// Daily Clicks
+// ***
+
+.proj_col {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 80%;
+}
+
+.proj_container {
+  height: 60vh;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    width: 40rem;
+    height: auto;
+  }
+}
+
+.proj_title {
+  flex-direction: column;
+  text-align: center;
+
+  span {
+    color: inherit;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+}
+
+.proj_desc {
+  width: 80%;
+  text-align: left;
+  align-self: center;
+
+  font-size: 1.2rem;
+}
+
+.proj_deployment {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  align-self: center;
+
+  a {
+    text-decoration: none;
+    color: @textblack;
+    transition: 0.3s;
+
+    &:hover {
+      color: @textblue;
+    }
+  }
+  h4 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+}

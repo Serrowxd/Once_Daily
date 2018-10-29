@@ -47,3 +47,85 @@ span {
   color: #e0e0e0;
   text-align: center;
 }
+.main {
+  justify-content: center;
+}
+.main section {
+  padding: 2rem;
+  width: 100%;
+}
+.main #one h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.img_container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img_container img {
+  width: 17rem;
+  height: auto;
+  padding: 1rem;
+}
+.img_container .col {
+  flex-direction: column;
+  align-items: center;
+}
+.img_container .col h1 {
+  font-size: 2rem;
+}
+.proj_col {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 80%;
+}
+.proj_container {
+  height: 60vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.proj_container img {
+  width: 40rem;
+  height: auto;
+}
+.proj_title {
+  flex-direction: column;
+  text-align: center;
+}
+.proj_title span {
+  color: inherit;
+  font-weight: bold;
+}
+.proj_title h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.proj_title h2 {
+  padding-bottom: 1rem;
+}
+.proj_desc {
+  width: 80%;
+  text-align: left;
+  align-self: center;
+  font-size: 1.2rem;
+}
+.proj_deployment {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  align-self: center;
+}
+.proj_deployment a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.proj_deployment a:hover {
+  color: #18d7dd;
+}
+.proj_deployment h4 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
