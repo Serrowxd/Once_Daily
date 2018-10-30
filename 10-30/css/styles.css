@@ -67,6 +67,7 @@ div {
 .navigation .sin h1 {
   transition: 0.25s;
   font-size: 5rem;
+  padding-left: 5rem;
 }
 .navigation .sin h1:hover {
   color: #f06292;
@@ -122,6 +123,18 @@ div {
 }
 .r_prof {
   transition: 0.5s;
+}
+.r_prof img {
+  height: 100%;
+  width: auto;
+}
+.r_prof .r_bio {
+  width: 40%;
+  align-items: center;
+  flex-direction: column;
+}
+.r_prof .r_bio h1 {
+  font-size: 3rem;
 }
 .transition {
   width: 100%;
