@@ -90,7 +90,7 @@ div {
 
 // Nav2
 
-#nav2 {
+#nav {
   transition: 0.5s;
 }
 
@@ -116,6 +116,14 @@ div {
       justify-content: space-around;
       text-align: center;
       font-size: 1.5rem;
+
+      p {
+        transition: 0.25s;
+        &:hover {
+          color: @textpink;
+          cursor: pointer;
+        }
+      }
     }
   }
 
@@ -123,6 +131,50 @@ div {
     width: 40rem;
     height: auto;
   }
+}
+
+// ***
+// Team
+// ***
+
+#team {
+  margin-top: 15rem;
+  position: fixed;
+  height: 100%;
+}
+
+.team_cont {
+  height: 70%;
+  justify-content: space-around;
+}
+
+.team_scroll {
+  position: relative;
+  flex-direction: column;
+  overflow: auto;
+  width: 15rem;
+  height: 100%;
+  text-align: center;
+
+  p {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    &:hover {
+      background-color: @textpink;
+      cursor: pointer;
+    }
+  }
+}
+
+.team_display {
+  width: 80%;
+  height: 100%;
+  border: 3px solid black;
+}
+
+.r_prof {
+  transition: 0.5s;
 }
 
 // Animations
@@ -139,4 +191,9 @@ div {
   position: fixed;
   opacity: 0;
   visibility: hidden;
+}
+
+.active {
+  transition: 0.5s;
+  color: @textpink;
 }

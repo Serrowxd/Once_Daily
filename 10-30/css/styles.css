@@ -52,7 +52,7 @@ div {
   height: 3rem;
   font-size: 1.2rem;
 }
-#nav2 {
+#nav {
   transition: 0.5s;
 }
 .navigation {
@@ -78,9 +78,50 @@ div {
   text-align: center;
   font-size: 1.5rem;
 }
+.navigation .sin .nav_buttons_smol p {
+  transition: 0.25s;
+}
+.navigation .sin .nav_buttons_smol p:hover {
+  color: #f06292;
+  cursor: pointer;
+}
 .navigation img {
   width: 40rem;
   height: auto;
+}
+#team {
+  margin-top: 15rem;
+  position: fixed;
+  height: 100%;
+}
+.team_cont {
+  height: 70%;
+  justify-content: space-around;
+}
+.team_scroll {
+  position: relative;
+  flex-direction: column;
+  overflow: auto;
+  width: 15rem;
+  height: 100%;
+  text-align: center;
+}
+.team_scroll p {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.team_scroll p:hover {
+  background-color: #f06292;
+  cursor: pointer;
+}
+.team_display {
+  width: 80%;
+  height: 100%;
+  border: 3px solid black;
+}
+.r_prof {
+  transition: 0.5s;
 }
 .transition {
   width: 100%;
@@ -93,4 +134,8 @@ div {
   position: fixed;
   opacity: 0;
   visibility: hidden;
+}
+.active {
+  transition: 0.5s;
+  color: #f06292;
 }
