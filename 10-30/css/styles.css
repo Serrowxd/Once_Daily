@@ -57,6 +57,7 @@ div {
 }
 .navigation {
   color: #e0e0e0;
+  max-height: 10rem !important;
   justify-content: space-between;
   align-items: center;
 }
@@ -88,7 +89,7 @@ div {
 }
 .navigation img {
   width: 40rem;
-  height: auto;
+  height: 13rem;
 }
 #team {
   margin-top: 15rem;
