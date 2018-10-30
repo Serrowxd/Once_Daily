@@ -22,11 +22,10 @@ allHide = () => {
 
 // Page Load
 $(document).ready(() => {
-  // allHide();
-  devMode();
+  allHide();
+  // devMode();
   hideRaiders();
-  $('#nav').addClass('transition');
-  $('#team').addClass('transition');
+  '#landing'.removeClass('hidetransition').addClass('transition');
 });
 
 // Remove Class Active
