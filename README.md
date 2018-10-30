@@ -53,3 +53,11 @@ Today's project is essentially a holster that displays my projects from the "Onc
 **Used:** HTML, LESS, JQuery
 
 **[Deployment](https://ecstatic-goodall-f7d3f8.netlify.com/)**
+
+In addition to todays projecct, I was also able to completely refactor October 28th's project into a React repository that will be maintained here forwards.
+
+**[Repository](https://github.com/Serrowxd/IHLFG)**
+
+The exciting bits to this project are are hand-built login and signup modals complete with transition animations and implemented `onChange` and `onSubmit` functionality. Future work to the project will include things like `query strings`, full redux architecture, and dynamic search routing to a full back-end server.
+
+Looking at possibly deploying the project to Firebase and having the server-side code managed by it, then doing a single 24hr pull to the World of Warcraft database to be implemented into our own, where we will do all our search functionality.
