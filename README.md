@@ -61,3 +61,11 @@ In addition to todays projecct, I was also able to completely refactor October 2
 The exciting bits to this project are are hand-built login and signup modals complete with transition animations and implemented `onChange` and `onSubmit` functionality. Future work to the project will include things like `query strings`, full redux architecture, and dynamic search routing to a full back-end server.
 
 Looking at possibly deploying the project to Firebase and having the server-side code managed by it, then doing a single 24hr pull to the World of Warcraft database to be implemented into our own, where we will do all our search functionality.
+
+# Day 6 - October 30, 2018:
+
+This project was a bit more of a rendition of a previous idea I had. I sat down and attempted to work through a few different ideas that were in my mind, design wise, for the Sinforsaken Guild Website (an old project) and decided on the current iteration. Lots of white space, very minimal, and some exciting transition animations to boot. The trick was working with rendering and unrendering, similar to React, but not mounting or unmounting the components as you would with normal State navigations, but instead simply hiding them and keeping the same styling across all the navigation links.
+
+I was able to achieve this with JQuery by adding/removing a pair of class names that are designed to change the visiblity and opacity of the sections they are attached to, which in turn transitions the content of these sections as well. Makes for a very interesting navigation technique without using any routes!
+
+**[Deployment](https://romantic-mclean-a61458.netlify.com/)**
