@@ -4,6 +4,8 @@ A new website every day to keep my skills sharp, test new concepts, and learn ne
 
 icons8 - Vector Icons
 
+**Some websites are refactored into personal projects - deployment will be to the sprint here, the new repo will be listed if relevant**
+
 #### !!! All Deployments are in 1920x1080 and non-reactive - unless otherwise defined !!!
 
 **_A website a day keeps the errors away._**
