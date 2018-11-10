@@ -52,7 +52,6 @@ I attempted implementation of the Blizzard API on this project - however with th
 
 **[Repository](https://github.com/Serrowxd/IHLFG)**
 
-
 # Day 5 - October 29, 2018:
 
 Today's project is essentially a holster that displays my projects from the "Once Daily" github repository. The main feature of this project (not yet implemnented) is a light-dark theme transition!
@@ -76,3 +75,7 @@ This project was a bit more of a rendition of a previous idea I had. I sat down 
 I was able to achieve this with JQuery by adding/removing a pair of class names that are designed to change the visiblity and opacity of the sections they are attached to, which in turn transitions the content of these sections as well. Makes for a very interesting navigation technique without using any routes!
 
 **[Deployment](https://romantic-mclean-a61458.netlify.com/)**
+
+# Day 7 - November 10, 2018:
+
+After being unable to work on the project for an extended period of time due to work, I'm returning to it on the weekends as a side-project of sorts. Updates will be forthcoming!
