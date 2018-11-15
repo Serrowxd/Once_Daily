@@ -1,0 +1,85 @@
+// ***
+// Global
+// ***
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+// ***
+// Colors & Mixins
+// ***
+
+@black: rgb(47, 47, 47);
+@white: rgb(250, 250, 250);
+@white100: rgb(245, 245, 245);
+@white300: rgb(224, 224, 224);
+@textblack: black;
+@textwhite: white;
+@textblue: rgb(24, 215, 221);
+@textpink: rgb(240, 98, 146);
+
+// ***
+// Header
+// ***
+
+.header {
+  justify-content: center;
+  width: 100%;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+
+.navigation {
+  justify-content: space-around;
+  width: 50%;
+
+  h2 {
+    font-size: 1.2rem;
+    transition: 0.25s;
+
+    &:hover {
+      color: @textpink;
+      cursor: pointer;
+    }
+  }
+}
+
+// ***
+// Jumbo
+// ***
+
+.jumbo {
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.jumb_left,
+.jumb_right {
+  width: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 80vh;
+
+  p {
+    padding-top: 1rem;
+  }
+}
+
+.jumb_left {
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+.jumb_right img {
+  height: 15rem;
+  width: auto;
+}

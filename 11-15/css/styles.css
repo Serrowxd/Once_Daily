@@ -1,0 +1,51 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  display: flex;
+}
+.header {
+  justify-content: center;
+  width: 100%;
+  align-items: baseline;
+  padding-top: 1rem;
+}
+.navigation {
+  justify-content: space-around;
+  width: 50%;
+}
+.navigation h2 {
+  font-size: 1.2rem;
+  transition: 0.25s;
+}
+.navigation h2:hover {
+  color: #f06292;
+  cursor: pointer;
+}
+.jumbo {
+  justify-content: center;
+  padding-top: 1rem;
+}
+.jumb_left,
+.jumb_right {
+  width: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 80vh;
+}
+.jumb_left p,
+.jumb_right p {
+  padding-top: 1rem;
+}
+.jumb_left {
+  flex-direction: column;
+  align-items: center;
+}
+.jumb_left h1 {
+  font-size: 5rem;
+}
+.jumb_right img {
+  height: 15rem;
+  width: auto;
+}
