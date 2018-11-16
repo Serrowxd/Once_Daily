@@ -79,3 +79,11 @@ I was able to achieve this with JQuery by adding/removing a pair of class names 
 # Day 7 - November 10, 2018:
 
 After being unable to work on the project for an extended period of time due to work, I'm returning to it on the weekends as a side-project of sorts. Updates will be forthcoming!
+
+# Day 8 - November 15, 2018:
+
+Today's project was a slight dip back into the world of JQuery. My inspiration was my Grandmother, who just recently became a fully-certified Ceramics instructor! I was playing with some concepts that involved an `onHover` effect when mousing over the different images. They were to grow and shrink in accordance to the alloted space, without breaking the thumbnail size. I struggled a bit with a concept that I liked in order to achieve this.
+
+I learned a valuable lesson as well - save lots, commit often. I lost the entire day's worth of work due to a random power outage that took me offline, and I was so sucked into the project that I forgot to save, or even commit my code.
+
+Lesson learned! Will return to this project at a later date.
