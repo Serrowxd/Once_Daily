@@ -1,0 +1,7 @@
+html {
+  background-color: #8dd9aa;
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  display: flex;
+}
