@@ -87,3 +87,7 @@ Today's project was a slight dip back into the world of JQuery. My inspiration w
 I learned a valuable lesson as well - save lots, commit often. I lost the entire day's worth of work due to a random power outage that took me offline, and I was so sucked into the project that I forgot to save, or even commit my code.
 
 Lesson learned! Will return to this project at a later date.
+
+# Day 9 - November 22, 2018:
+
+Very busy! Not a lot of time (or inspiration) to work on new concept pages - so today I decided to play with Three.js! It was a fantastic learning experience, understanding the absolutely incredible power that it holds. Hopefully I'll be able to really play with it one of these days, right now I'm just kinda toying with it as a concept idea for a future portfolio section.
