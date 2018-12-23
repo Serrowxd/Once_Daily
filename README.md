@@ -95,3 +95,13 @@ Very busy! Not a lot of time (or inspiration) to work on new concept pages - so 
 # !! Break !!
 
 **Moving forwards we will be replicating existing websites in an attempt to work off "pre existing designs" for morning sprints. Website used as reference will be linked.**
+
+# December 23, 2018:
+
+**Website:** https://clubhouse.io/
+
+**Time:** 1 hour 15 minutes -- Sprint
+
+**Used:** HTML/LESS
+
+**Deployment?** N/A
