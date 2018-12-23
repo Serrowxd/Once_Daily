@@ -14,6 +14,10 @@ Unsure how a twitch bot would be relevant to a website a day project, but we'll 
 
 Website for Grandma's Ceramics!
 
+#### Lemgth Book (Globalized):
+
+I wamt to build am extemsiom that chamges every page you visit on the web to "lemgthbook" text - aka you are mot allowed to use the short-versiom of m as it is the F O R B I D D E M G L Y P H. I thimk it would be a fum experiemce to create a Chrome app im this style, at least somethimg that will read the dom before it's remdered amd replace every forbiddem glyph with the proper 'm' replacememt.
+
 ---
 
 # Monthly Projects (Larger)
