@@ -91,3 +91,7 @@ Lesson learned! Will return to this project at a later date.
 # Day 9 - November 22, 2018:
 
 Very busy! Not a lot of time (or inspiration) to work on new concept pages - so today I decided to play with Three.js! It was a fantastic learning experience, understanding the absolutely incredible power that it holds. Hopefully I'll be able to really play with it one of these days, right now I'm just kinda toying with it as a concept idea for a future portfolio section.
+
+# !! Break !!
+
+**Moving forwards we will be replicating existing websites in an attempt to work off "pre existing designs" for morning sprints. Website used as reference will be linked.**
