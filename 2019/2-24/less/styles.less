@@ -1,0 +1,88 @@
+// ***
+// Global
+// ***
+
+html {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 200;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+  background-image: url(../assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-image: url(../assets/opac.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 100%;
+}
+
+div {
+  display: flex;
+}
+
+.styled {
+  font-size: 4rem;
+}
+
+.main-container {
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.smol-container {
+  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  background-color: rgba(47, 47, 47, 0.329);
+  h1 {
+    color: white;
+  }
+}
+
+.title {
+  width: 25%;
+  justify-content: center;
+}
+
+.main-nav {
+  width: 40%;
+  font-size: 2rem;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+
+  p {
+    transition: 0.25s;
+  }
+
+  p:hover {
+    cursor: pointer;
+    color: lightgray;
+  }
+}
+
+.footer {
+  background-color: rgb(22, 22, 22);
+  height: 10%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-container {
+  width: 25%;
+  color: white;
+  padding: 0.5rem;
+  justify-content: space-around;
+  font-size: 2rem;
+}
