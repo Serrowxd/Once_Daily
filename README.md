@@ -4,6 +4,8 @@ A new website every day to keep my skills sharp, test new concepts, and learn ne
 
 icons8 - Vector Icons
 
+# Due to work requirements, I'm not able to do this every day. I'll mainly only do it on weekends when possible!
+
 **Some websites are refactored into personal projects - deployment will be to the sprint here, the new repo will be listed if relevant**
 
 #### !!! All Deployments are in 1920x1080 and non-reactive - unless otherwise defined !!!
@@ -104,4 +106,4 @@ Very busy! Not a lot of time (or inspiration) to work on new concept pages - so 
 
 **Used:** HTML/LESS
 
-**Deployment?** N/A
+**Deployment?** [https://github.com/Serrowxd/Once_Daily/tree/master/2018/12-23](https://github.com/Serrowxd/Once_Daily/tree/master/2018/12-23)
