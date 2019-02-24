@@ -1,0 +1,8 @@
+@media (max-width: 1400px) {
+  .main-container {
+    justify-content: space-between;
+  }
+  .styled {
+    font-size: 2rem;
+  }
+}

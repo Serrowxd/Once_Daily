@@ -1,20 +1,14 @@
 html {
   font-family: 'Permanent Marker', cursive;
-  font-weight: 200;
   height: 100%;
   position: relative;
   overflow: hidden;
-  background-image: url(../assets/background.jpg);
+  background-image: url(../assets/background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 body {
-  background-image: url(../assets/opac.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 100%;
 }
 div {
@@ -39,7 +33,7 @@ div {
   color: white;
 }
 .title {
-  width: 25%;
+  width: 30%;
   justify-content: center;
 }
 .main-nav {
@@ -63,9 +57,27 @@ div {
   align-items: flex-end;
 }
 .footer-container {
-  width: 25%;
+  width: 35%;
   color: white;
   padding: 0.5rem;
   justify-content: space-around;
   font-size: 2rem;
+}
+@media (max-width: 1400px) {
+  .main-container {
+    justify-content: space-between;
+  }
+  .styled {
+    font-size: 2.25rem;
+  }
+  .title {
+    width: 40%;
+  }
+  .main-nav {
+    width: 60%;
+    font-size: 1.25rem;
+  }
+  .footer-container {
+    width: 70%;
+  }
 }
