@@ -107,3 +107,10 @@ Very busy! Not a lot of time (or inspiration) to work on new concept pages - so 
 **Used:** HTML/LESS
 
 **Deployment?** [https://github.com/Serrowxd/Once_Daily/tree/master/2018/12-23](https://github.com/Serrowxd/Once_Daily/tree/master/2018/12-23)
+
+
+# August 23, 2020:
+
+Out of absolute sheer boredom, I decided to play with something super simple that I remember doing back in school as part of our lessons.
+
+I'll probably copy/paste this at some point and make it do crazy things, but I just needed to write something and this was the first thing that came to mind.
