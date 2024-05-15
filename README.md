@@ -1,5 +1,10 @@
 # Once Daily
 
+
+!!
+
+This  needs to be revisited and edited, going to re-continue this project by creating a new website every day.
+
 A new website every day to keep my skills sharp, test new concepts, and learn new things.
 
 icons8 - Vector Icons
